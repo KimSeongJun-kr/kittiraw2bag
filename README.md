@@ -1,6 +1,6 @@
 # kittiraw2bag
-The key feature of kittiraw2bag is its ability to add time, ring, and label fields to the LiDAR scan points in the KITTI Raw dataset, allowing for the creation of ROS bag files.   
-To incorporate the time and ring information, the positions and orientations of the lasers in the HDL-64E LiDAR from the KITTI dataset were manually determined.
+The key feature of kittiraw2bag is its ability to **add time, ring, and label fields to the LiDAR scan points** in the KITTI Raw dataset, allowing for the creation of ROS bag files.   
+To incorporate the time and ring information, **the positions and orientations of the lasers** in the HDL-64E LiDAR from the KITTI dataset were manually determined.
 ## Target sequences
 As far as I know, the 03 sequence (2011_09_26_drive_0067) data is not provided.  
 The IMU data for sequences 00, 02, 04, 05, and 06 is partially missing.
